@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.scene {
+  float: left;
+  background: black;
+  width: 100%;
+  height: 500px;
+}
+
+.grass {
+  float: left;
+  background: green;
+  width: 100%;
+  height: 100px;
+}
+
+.road {
+  float: left;
+  background: lightgray;
+  width: 100%;
+  height: 300px;
+}
+
+.ai {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background: lightcoral;
+  top: 200px;
+}
+
+.wall {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: red;
+  right: 0;
+}
+
+.sensor {
+  position: relative;
+  background: white;
+  opacity: .5;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  left: 50px;
+  top: -50px;
+}
+
+.sensor-2 {
+  left: 100px;
+  width: 500px;
+}
